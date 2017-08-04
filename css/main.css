@@ -4,7 +4,9 @@ body{
 }
 
 
-
+.mar-ch{
+    margin-left: 316px;
+}
 
 /* header starts here */
 
@@ -42,7 +44,9 @@ body{
     padding-bottom: 25px;
     background-color: #ffffff;
 }
-
+.pad{
+    padding: 0px;
+}
 .cfbtm{
     border-bottom: 1px solid #eeefef;
     background-color: #ffffff;
@@ -58,15 +62,8 @@ body{
     border-color: #ffffff;
 }
 
-.navbar-collapse {
-    height: 70px;
-    line-height: 40px;
-    padding: 0px 50px;
+.navbar-default .navbar-nav>li>a{
     font-weight: bold;
-    margin: 0px auto;
-    display: block;
-    font-size: 16px;
-    float: left;
 }
 
 .navbar-default .navbar-nav>li>a
@@ -252,7 +249,9 @@ body{
 
 .bg2 {
     background-color: #ffffff;
-    margin:0px auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 .travelbg {
@@ -417,7 +416,10 @@ body{
 
 /* main content1 ends here */
 
-
+.mar-lef{
+    margin-left: 15px;
+    
+}
 
 
 /* main content2 starts here */
@@ -425,10 +427,17 @@ body{
 .mc2 {
     background-color: #ffffff;
     display: block;
-    position: absolute;
+    
     height:400px;
 }
+.mc3 {
+    background-color: #ffffff;
+    display: block;
+    padding-left: 0px;
+    
 
+    
+}
 .imgpad {
     padding: 0px;
 }
@@ -765,6 +774,16 @@ body{
      font-weight: bold;    
 }
 
+.wbg{
+    background-color: #fff;
+}
+.padd{
+    
+    box-sizing: border-box;
+}
+.paddnil{
+    padding: 0px;
+}
 /* copyrights portion ends here */
 
 
@@ -835,7 +854,18 @@ body{
 }
        
 }
-
+@media(min-width:0px) and (max-width:991px){
+.cnt-blc{
+    margin: 0px auto;
+    display: block;
+}
+    .mar-top{
+        margin-top: 125px;
+    }
+    .mar-bot{
+        margin-bottom: 25px;
+    }
+}
 /* MEDIA 768 ENDS HERE */
 
 
@@ -862,7 +892,10 @@ body{
     
     .rbg {
     margin-left: 15px;
-    }       
+    } 
+    .flex{
+    display: flex;
+}
 }
 
 /* MEDIA 992 ENDS HERE */
@@ -874,6 +907,7 @@ body{
 
 @media (min-width: 1170px){
     
+   
     .navbar-default .navbar-nav>li>a {
     font-size:16px;     
     }
