@@ -4,6 +4,36 @@
  * Licensed under the MIT license
  */
 
+
+
+
+
+/*   login js code starts here */
+
+
+function showPassword() {
+    
+    var key_attr = $('#key').attr('type');
+    
+    if(key_attr != 'text') {
+        
+        $('.checkbox').addClass('show');
+        $('#key').attr('type', 'text');
+        
+    } else {
+        
+        $('.checkbox').removeClass('show');
+        $('#key').attr('type', 'password');
+        
+    }
+    
+}
+
+/*   login js code ends here */
+
+
+
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
