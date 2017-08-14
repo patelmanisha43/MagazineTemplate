@@ -1077,4 +1077,11 @@ body{
 
 
 
+.form-control-feedback {
+    pointer-events: auto;
+}
+
+.js-email-error {
+	color: #a94442;
+}
 
